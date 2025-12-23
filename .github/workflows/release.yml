@@ -62,7 +62,7 @@ jobs:
 
           docker buildx build \
             --platform linux/amd64,linux/arm64 \
-            --file config-server/Dockerfile \
+            --file Dockerfile \
             --tag $IMAGE_NAME \
             --push \
             .
